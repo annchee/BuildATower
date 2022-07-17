@@ -1,0 +1,32 @@
+html{
+    background: #fff;
+}
+
+#unityContainer{
+    max-width: 480px;
+    max-height: 100vh;
+    overflow: hidden;
+
+}
+
+#webgl-content * {
+    border: 0; 
+    margin: 0; 
+    padding: 0;
+}
+
+#webgl-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 480px), (max-height: 800px) {
+    #unityContainer{
+        width: 480px;
+        height: 800px;
+
+    }
+}
